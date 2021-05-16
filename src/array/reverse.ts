@@ -4,10 +4,6 @@ const reverse = (array: [], start: number, end: number): void => {
   }
 }
 
-const array = {
-  reverse
-}
-
 export {
-  array
+  reverse
 }

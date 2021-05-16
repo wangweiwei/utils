@@ -1,1 +1,9 @@
-export * from "./reverse";
+import { reverse } from "./reverse";
+
+const string = {
+  reverse 
+}
+
+export {
+  string
+}
