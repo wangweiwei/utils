@@ -1,6 +1,6 @@
 {
   "name": "@dengfengwang/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Some commonly used utils.",
   "main": "lib/utils.umd.js",
   "module": "lib/utils.es.js",
@@ -42,7 +42,6 @@
     "tslint": "^6.1.3",
     "typescript": "^4.2.4"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangweiwei/utils.git"
