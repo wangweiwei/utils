@@ -1,9 +1,7 @@
-import { reverse } from "./reverse";
+import { reverse } from './reverse';
 
 const array = {
-  reverse
-}
+  reverse,
+};
 
-export {
-  array
-}
+export { array };

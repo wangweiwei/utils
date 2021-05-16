@@ -24,7 +24,7 @@
     "clean": "rimraf node_modules",
     "rm": "rimraf lib",
     "tslint": "tslint -p .",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",

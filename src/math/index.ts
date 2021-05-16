@@ -1,9 +1,7 @@
-import { average } from "./average";
+import { average } from './average';
 
 const math = {
-  average
-}
+  average,
+};
 
-export {
-  math
-}
+export { math };

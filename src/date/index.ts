@@ -1,9 +1,7 @@
-import { isWeekday } from "./isWeekday";
+import { isWeekday } from './isWeekday';
 
 const date = {
-  isWeekday
-}
+  isWeekday,
+};
 
-export {
-  date
-}
+export { date };
