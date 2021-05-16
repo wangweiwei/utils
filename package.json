@@ -1,6 +1,6 @@
 {
   "name": "@dengfengwang/utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some commonly used utils.",
   "main": "lib/utils.umd.js",
   "module": "lib/utils.es.js",
