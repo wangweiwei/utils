@@ -29,6 +29,7 @@
     "docs",
     "examples",
     "scripts",
-    "test"
+    "tests",
+    "src/**/*.test.ts"
   ]
 }
