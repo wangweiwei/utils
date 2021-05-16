@@ -50,5 +50,5 @@ yarn add @dengfengwang/utils
 ## **License**
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/@dengfengwang/utils/blob/master/LICENSE)
 
-Copyright (c) 2020-present, Weiwei Wang 
+Copyright (c) 2021-present, Weiwei Wang 
 
