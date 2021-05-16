@@ -33,7 +33,7 @@
   </a>
 </p>
 
-> Some commonly used utils.
+> Some Convenience utils.
 
 ## **Installation**
 
