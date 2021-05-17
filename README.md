@@ -66,9 +66,9 @@ console.log(toFixed(1.123, 2))
 
 ## **Table of contents**
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [API](#API)
+* [Installation](#installation)
+* [Usage](#usage)
+* [API](#api)
   * [array](#array)
   * [string](#string)
 
