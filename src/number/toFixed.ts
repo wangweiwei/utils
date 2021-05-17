@@ -1,5 +1,5 @@
-const toFixed = (num: number, fixed: number): number => {
-  return Math.floor((Math.pow(10, fixed) * num) / Math.pow(10, fixed))
+const toFixed = (num: number, digits: number): number => {
+  return Math.floor((Math.pow(10, digits) * num)) / Math.pow(10, digits)
 }
 
 export { toFixed }
