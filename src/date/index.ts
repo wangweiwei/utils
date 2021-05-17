@@ -1,7 +1,7 @@
 import { isWeekday } from './isWeekday'
 
-const date = {
+const $date = {
   isWeekday,
 }
 
-export { date }
+export { $date }

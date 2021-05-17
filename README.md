@@ -55,9 +55,9 @@ yarn add @dengfengwang/utils
 You can import(or require) `@dengfengwang/utils` by getting it from `npm` 
 
 ```typescript
-import { number } from '@dengfengwang/utils';
+import { $number } from '@dengfengwang/utils';
 
-const { toFixed } = number;
+const { toFixed } = $number;
 
 console.log(toFixed(1.123, 2))
 ```
@@ -69,21 +69,14 @@ console.log(toFixed(1.123, 2))
 * [Installation](#installation)
 * [Usage](#usage)
 * [API](#api)
-  * [array](#array)
-  * [string](#string)
+  * [$array](#$array)
+  * [$array](#$array)
 
 
 
 ## **API**
 
-### array
-
-```typescript
-
-
-```
-
-
+### $array
 
 ***.reverse***
 
@@ -98,8 +91,8 @@ Reverses an array in place.
 **Example**
 
 ```typescript
-import { array } from '@dengfengwang/utils';
-const { reverse } = array;
+import { $array } from '@dengfengwang/utils';
+const { reverse } = $array;
 
 const arr = [1,2,3];
 reverse(arr, 0, arr.length - 1);
@@ -109,7 +102,7 @@ console.log(arr);
 
 
 
-### boolean
+### $boolean
 
 ***.random***
 
@@ -122,36 +115,16 @@ Get a random boolean (true/false).
 **Example**
 
 ```typescript
-const arr = [1,2,3];
-reverse(arr, 0, arr.length - 1);
-console.log(arr);
-//=> [3,2,1]
+import { $boolean } from '@dengfengwang/utils';
+const { random } = $boolean;
+
+console.log(random());
+//=> true/false
 ```
 
 
 
-### boolean
-
-***.random***
-
-Get a random boolean (true/false).
-
-**Params**
-
-- `returns` **{Boolean}**: A boolean (true or false).
-
-**Example**
-
-```typescript
-const arr = [1,2,3];
-reverse(arr, 0, arr.length - 1);
-console.log(arr);
-//=> [3,2,1]
-```
-
-
-
-### string
+### $string
 
 ***.reverse***
 
@@ -165,6 +138,9 @@ Reverse the characters in a string.
 **Example**
 
 ```
+import { $string } from '@dengfengwang/utils';
+const { reverse } = $string;
+
 reverse("abc");
 //=> 'cba'
 ```

@@ -1,7 +1,7 @@
 import { reverse } from './reverse'
 
-const array = {
+const $array = {
   reverse,
 }
 
-export { array }
+export { $array }

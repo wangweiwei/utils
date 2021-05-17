@@ -1,7 +1,7 @@
 import { random } from './random'
 
-const boolean = {
+const $boolean = {
   random,
 }
 
-export { boolean }
+export { $boolean }

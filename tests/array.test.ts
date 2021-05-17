@@ -1,4 +1,4 @@
-import { array } from '../src'
+import { $array as array } from '../src'
 
 const { reverse } = array;
 
