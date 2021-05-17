@@ -69,8 +69,12 @@ console.log(toFixed(1.123, 2))
 * [Installation](#installation)
 * [Usage](#usage)
 * [API](#api)
-  * [$array](#array)
-  * [$array](#$array)
+    * [$array](#array)
+    * [$boolean](#boolean)
+    * [$date](#date)
+    * [$math](#math)
+    * [$number](#number)
+    * [$string](#string)
 
 
 
