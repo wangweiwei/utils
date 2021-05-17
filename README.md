@@ -94,7 +94,7 @@ Reverses an array in place.
 import { $array } from '@dengfengwang/utils';
 const { reverse } = $array;
 
-const arr = [1,2,3];
+const arr = [1, 2, 3];
 reverse(arr, 0, arr.length - 1);
 console.log(arr);
 //=> [3,2,1]
@@ -124,6 +124,99 @@ console.log(random());
 
 
 
+### $date
+
+***.isWeekday***
+
+Check if the provided day is a weekday.
+
+**Params**
+
+- `date`  **{Date}**: Provided Date.
+- `returns` **{Boolean}**: Either a weekday or not(a weekend day).
+
+**Example**
+
+```typescript
+import { $date } from '@dengfengwang/utils';
+const { isWeekday } = $date;
+
+console.log(isWeekday(new Date('2021-05-17T00:00:00')));
+//=> true
+```
+
+
+
+### $math
+
+***.average***
+
+Get average value of arguments.
+
+**Params**
+
+- `...args` **{Array<Number>}**: Some number arguments.
+- `returns` **{Number}**: Average value of the arguments.
+
+**Example**
+
+```typescript
+import { $math } from '@dengfengwang/utils';
+const { average } = $math;
+
+console.log(average(1,2,3));
+//=> 2
+```
+
+
+
+### $number
+
+***.isEven***
+
+Check if a number is even or odd.
+
+**Params**
+
+- `num` **{Number}**: Arbitrary integer.
+- `returns` **{Boolean}**: Even or not(odd).
+
+**Example**
+
+```typescript
+import { $number } from '@dengfengwang/utils';
+const { isEven } = $number;
+
+console.log(isEven(2));
+//=> true
+console.log(isEven(3));
+//=> false
+```
+
+
+
+***.toFixed***
+
+Truncate a number to a fixed decimal point.
+
+**Params**
+
+- `num` **{Number}**: The needed formatted number.
+- `digits` **{Number}**: The number of digits to appear after the decimal point.
+- `returns` **{Boolean}**:  The given number using fixed-point notation.
+
+**Example**
+
+```typescript
+import { $number } from '@dengfengwang/utils';
+const { toFixed } = $number;
+
+console.log(toFixed(2.123, 2));
+//=> 2.12
+```
+
+
+
 ### $string
 
 ***.reverse***
@@ -133,7 +226,7 @@ Reverse the characters in a string.
 **Params**
 
 - `str` **{String}**: The string to reverse.
-- `returns` **{String}**
+- `returns` **{String}** The reversed string.
 
 **Example**
 
@@ -141,7 +234,7 @@ Reverse the characters in a string.
 import { $string } from '@dengfengwang/utils';
 const { reverse } = $string;
 
-reverse("abc");
+console.log(reverse("abc"));
 //=> 'cba'
 ```
 
