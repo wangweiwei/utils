@@ -234,7 +234,7 @@ Reverse the characters in a string.
 
 **Example**
 
-```
+```typescript
 import { $string } from '@dengfengwang/utils';
 const { reverse } = $string;
 
