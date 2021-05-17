@@ -1,7 +1,7 @@
-import { random } from './random';
+import { random } from './random'
 
 const boolean = {
   random,
-};
+}
 
-export { boolean };
+export { boolean }
