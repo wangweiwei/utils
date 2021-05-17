@@ -19,7 +19,7 @@
     "工具"
   ],
   "scripts": {
-    "build": "npm run tslint && npm run test && npm run clean && rollup -c",
+    "build": "npm run tslint && npm run test && rollup -c",
     "test": "jest",
     "dev": "rollup -c -w",
     "clean": "rimraf node_modules",
