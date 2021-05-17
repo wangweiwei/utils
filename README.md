@@ -52,7 +52,7 @@ yarn add @dengfengwang/utils
 
 ## **Usage**
 
-You can import(or require) `video-metadata-thumbnails` by getting it from `npm` 
+You can import(or require) `@dengfengwang/utils` by getting it from `npm` 
 
 ```typescript
 import { number } from '@dengfengwang/utils';
@@ -78,6 +78,13 @@ console.log(toFixed(1.123, 2))
 
 ### array
 
+```typescript
+
+
+```
+
+
+
 ***.reverse***
 
 Reverses an array in place.
@@ -87,6 +94,51 @@ Reverses an array in place.
 - `arr` **{Array}**: The array to reverse.
 - `start` **{Number}**: Starting index.
 - `end` **{Number}**: Ending index.
+
+**Example**
+
+```typescript
+import { array } from '@dengfengwang/utils';
+const { reverse } = array;
+
+const arr = [1,2,3];
+reverse(arr, 0, arr.length - 1);
+console.log(arr);
+//=> [3,2,1]
+```
+
+
+
+### boolean
+
+***.random***
+
+Get a random boolean (true/false).
+
+**Params**
+
+- `returns` **{Boolean}**: A boolean (true or false).
+
+**Example**
+
+```typescript
+const arr = [1,2,3];
+reverse(arr, 0, arr.length - 1);
+console.log(arr);
+//=> [3,2,1]
+```
+
+
+
+### boolean
+
+***.random***
+
+Get a random boolean (true/false).
+
+**Params**
+
+- `returns` **{Boolean}**: A boolean (true or false).
 
 **Example**
 

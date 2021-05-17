@@ -1,4 +1,4 @@
-const reverse = (arr: any[], start: number, end: number): void => {
+const reverse = (arr: Array<any>, start: number, end: number): void => {
   while (start < end) {
     ;[arr[start++], arr[end--]] = [arr[end], arr[start]]
   }
