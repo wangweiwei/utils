@@ -1,6 +1,6 @@
-const reverse = (array: any[], start: number, end: number): void => {
+const reverse = (arr: any[], start: number, end: number): void => {
   while (start < end) {
-    ;[array[start++], array[end--]] = [array[end], array[start]]
+    ;[arr[start++], arr[end--]] = [arr[end], arr[start]]
   }
 }
 

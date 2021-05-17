@@ -34,6 +34,8 @@
 
 > Some convenience utils.
 
+
+
 ## **Installation**
 
 ```shell
@@ -47,7 +49,78 @@ yarn add @dengfengwang/utils
 ```
 
 
+
+## **Usage**
+
+You can import(or require) `video-metadata-thumbnails` by getting it from `npm` 
+
+```typescript
+import { number } from '@dengfengwang/utils';
+
+const { toFixed } = number;
+
+console.log(toFixed(1.123, 2))
+```
+
+
+
+## **Table of contents**
+
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [API](#API)
+  * [array](#array)
+  * [string](#string)
+
+
+
+## **API**
+
+### array
+
+***.reverse***
+
+Reverses an array in place.
+
+**Params**
+
+- `arr` **{Array}**: The array to reverse.
+- `start` **{Number}**: Starting index.
+- `end` **{Number}**: Ending index.
+
+**Example**
+
+```typescript
+const arr = [1,2,3];
+reverse(arr, 0, arr.length - 1);
+console.log(arr);
+//=> [3,2,1]
+```
+
+
+
+### string
+
+***.reverse***
+
+Reverse the characters in a string.
+
+**Params**
+
+- `str` **{String}**: The string to reverse.
+- `returns` **{String}**
+
+**Example**
+
+```
+reverse("abc");
+//=> 'cba'
+```
+
+
+
 ## **License**
+
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/@dengfengwang/utils/blob/master/LICENSE)
 
 Copyright (c) 2021-present, Weiwei Wang 
