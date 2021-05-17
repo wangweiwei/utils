@@ -15,20 +15,20 @@
     <img alt="Software License" src="https://img.shields.io/npm/l/@dengfengwang/utils" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Contributors Anon" src="https://img.shields.io/github/contributors-anon/wangweiwei/@dengfengwang/utils" style="max-width:100%;">
+    <img alt="Contributors Anon" src="https://img.shields.io/github/contributors-anon/wangweiwei/utils" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/@dengfengwang/utils" style="max-width:100%;">
+    <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/utils" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Languages Count" src="https://img.shields.io/github/languages/count/wangweiwei/@dengfengwang/utils" style="max-width:100%;">
+    <img alt="Languages Count" src="https://img.shields.io/github/languages/count/wangweiwei/utils" style="max-width:100%;">
   </a>
   <br/>
   <a href="https://npmjs.com/package/@dengfengwang/utils" >
     <img alt="Downloads" src="https://img.shields.io/npm/dt/@dengfengwang/utils.svg" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/@dengfengwang/utils" style="max-width:100%;">
+    <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/utils" style="max-width:100%;">
   </a>
 </p>
 
