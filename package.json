@@ -16,7 +16,13 @@
   "sideEffects": false,
   "keywords": [
     "utils",
-    "工具"
+    "工具",
+    "array",
+    "boolean",
+    "date",
+    "math",
+    "number",
+    "string"
   ],
   "scripts": {
     "build": "npm run tslint && npm run test && rollup -c",
