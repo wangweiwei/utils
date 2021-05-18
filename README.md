@@ -159,7 +159,7 @@ Get average value of arguments.
 
 **Params**
 
-- `...args` **{Array<Number>}**: Some number arguments.
+- `...args` **{Arguments}**: Some number arguments.
 - `returns` **{Number}**: Average value of the arguments.
 
 **Example**
