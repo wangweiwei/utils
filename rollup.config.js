@@ -17,68 +17,79 @@ import serve from 'rollup-plugin-serve';
 
 const banner = `
   /*!
-   * Video metadata and thumbnails v${pkg.version}
+   * @dengfengwang/utils v${pkg.version}
    *
    * @author wangweiwei
    */
-`
+`;
+
+// 插件列表
+const plugins = [
+  json(),
+  replace({
+    __VERSION__: pkg.version,
+    __NAME__: pkg.name
+  }),
+  typescript({
+    exclude: 'node_modules/**',
+    rollupCommonJSResolveHack: false,
+    clean: true,
+    typescript: require('typescript')
+  }),
+  nodeResolve({
+    jsnext: true,
+    main: true,
+    browser: true
+  }),
+  commonjs({
+    include: 'node_modules/**'
+  }),
+  terser(),
+];
+
+// 是否停止Server
+const SERVER_STOP = process.env.SERVER_STOP === 'true';
+if(!SERVER_STOP) {
+  serve({
+    host: 'localhost',
+    port: 8000,
+    contentBase: ['lib', 'examples'],
+  })
+}
+
+// 输出文件列表
+const output = [{
+  format: 'cjs',
+  file: pkg.main,
+  banner,
+  file: './lib/utils.cjs.js',
+  sourcemap: true
+}, {
+  format: 'es',
+  file: pkg.module,
+  banner,
+  file: './lib/utils.es.js',
+  sourcemap: true,
+}, {
+  format: 'umd',
+  name: '__video_metadata_thumbnails__',
+  file: pkg.browser,
+  banner,
+  file: './lib/utils.umd.js',
+  sourcemap: true
+}, {
+  format: 'iife',
+  name: '__video_metadata_thumbnails__',
+  file: pkg.browser,
+  banner,
+  file: './lib/utils.iife.js',
+  sourcemap: true
+}]
 
 export default {
   input: './src/index.ts',
-  output: [{
-    format: 'cjs',
-    file: pkg.main,
-    banner,
-    file: './lib/utils.cjs.js',
-    sourcemap: true
-  }, {
-    format: 'es',
-    file: pkg.module,
-    banner,
-    file: './lib/utils.es.js',
-    sourcemap: true,
-  }, {
-    format: 'umd',
-    name: '__video_metadata_thumbnails__',
-    file: pkg.browser,
-    banner,
-    file: './lib/utils.umd.js',
-    sourcemap: true
-  }, {
-    format: 'iife',
-    name: '__video_metadata_thumbnails__',
-    file: pkg.browser,
-    banner,
-    file: './lib/utils.iife.js',
-    sourcemap: true
-  }],
-  plugins: [
-    json(),
-    replace({
-      __VERSION__: pkg.version,
-      __NAME__: pkg.name
-    }),
-    typescript({
-      exclude: 'node_modules/**',
-      rollupCommonJSResolveHack: false,
-      clean: true,
-      typescript: require('typescript')
-    }),
-    nodeResolve({
-      jsnext: true,
-      main: true,
-      browser: true
-    }),
-    commonjs({
-      include: 'node_modules/**'
-    }),
-    terser(),
-    serve({
-      host: 'localhost',
-      port: 8000,
-      contentBase: ['lib', 'examples'],
-    })
-  ],
+  output,
+  plugins,
   watch: {
     exclude: ['node_modules/**']
   }
