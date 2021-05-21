@@ -53,7 +53,7 @@
     ],
     "testMatch": [
       "<rootDir>/src/**/?(*.)test.ts",
-      "<rootDir>/tests/**/?(*.)test.ts"
+      "<rootDir>/test/**/?(*.)test.ts"
     ],
     "coverageThreshold": {
       "global": {
