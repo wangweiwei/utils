@@ -1,6 +1,7 @@
 {
   "*.ts": [
     "prettier ./src/**/*.ts --write --ignore-unknown",
-    "tslint -c tslint.json 'src/**/*.ts'"
+    "tslint -c tslint.json 'src/**/*.ts'",
+    "npm run test"
   ]
 }
