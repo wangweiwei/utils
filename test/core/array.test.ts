@@ -1,6 +1,6 @@
-import { $array as array } from '../../src/core/';
+import { $array } from '../../src/core/';
 
-const { reverse } = array;
+const { reverse } = $array;
 
 test('$array.reverse', () => {
   let arr = [1, 2, 3, 4, 5, 6, 7];
