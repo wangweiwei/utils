@@ -1,6 +1,6 @@
 {
   "*.ts": [
     "prettier ./src/**/*.ts --write --ignore-unknown",
-    "tslint -p ./src/**/*.ts --ext ts --quiet"
+    "tslint -c tslint.json 'src/**/*.ts'"
   ]
 }
