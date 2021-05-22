@@ -1,12 +1,8 @@
 import { $boolean } from '../../src/core/';
+import { mock } from '../mock/';
 
+const { random: mockRandom } = mock;
 const { random } = $boolean;
-
-function mockRandom(num: number) {
-  const mockMath = Object.create(global.Math);
-  mockMath.random = () => num;
-  global.Math = mockMath;
-}
 
 test('$boolean.random', () => {
   mockRandom(0.9);
