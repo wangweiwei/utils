@@ -11,6 +11,9 @@
   <a href="https://travis-ci.com/wangweiwei/utils">
     <img alt="Build Status" src="https://travis-ci.com/wangweiwei/utils.svg?branch=main" style="max-width:100%;">
   </a>
+  <a href="https://codecov.io/gh/wangweiwei/utils">
+    <img alt="Codecov Coverage" src="https://img.shields.io/codecov/c/github/wangweiwei/utils.svg?style=flat-square" style="max-width:100%;">
+  </a>
   <a href="https://github.com/wangweiwei/utils">
     <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/utils" style="max-width:100%;">
   </a>
@@ -34,6 +37,7 @@
     <img alt="Software License" src="https://img.shields.io/npm/l/@dengfengwang/utils" style="max-width:100%;">
   </a>
 </p>
+
 
 
 > Some convenience utils.
