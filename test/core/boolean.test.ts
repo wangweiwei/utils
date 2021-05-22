@@ -1,4 +1,4 @@
-import { $boolean } from '../../src/core/';
+import { $boolean } from '../../src';
 import { mock } from '../mock/';
 
 const { random: mockRandom } = mock;

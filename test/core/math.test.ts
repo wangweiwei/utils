@@ -1,4 +1,4 @@
-import { $math } from '../../src/core/';
+import { $math } from '../../src';
 
 const { average } = $math;
 

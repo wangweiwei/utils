@@ -1,4 +1,4 @@
-import { $number } from '../../src/core/';
+import { $number } from '../../src';
 
 const { isEven, toFixed } = $number;
 

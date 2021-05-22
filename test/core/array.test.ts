@@ -1,4 +1,4 @@
-import { $array } from '../../src/core/';
+import { $array } from '../../src';
 
 const { reverse } = $array;
 

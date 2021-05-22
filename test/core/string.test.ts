@@ -1,4 +1,4 @@
-import { $string } from '../../src/core/';
+import { $string } from '../../src';
 
 const { reverse } = $string;
 

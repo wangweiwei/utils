@@ -1,4 +1,4 @@
-import { $date } from '../../src/core/';
+import { $date } from '../../src';
 
 const { isWeekday } = $date;
 
