@@ -26,7 +26,7 @@
   ],
   "scripts": {
     "dev": "rollup -c -w",
-    "test": "jest",
+    "test": "jest --collect-coverage",
     "clean": "rimraf node_modules",
     "rm": "rimraf lib",
     "build": "npm run tslint && npm run test && npm run rm && rollup -c --environment SERVER_STOP,BUILD:production",
