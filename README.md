@@ -8,7 +8,7 @@
   <a href="https://npmjs.com/package/@dengfengwang/utils" rel="nofollow">
     <img alt="Latest Version on NPM" src="https://img.shields.io/npm/v/@dengfengwang/utils" style="max-width:100%;">
   </a>
-  <a href="https://travis-ci.com/wangweiwei/utils">
+  <a href="https://travis-ci.com/wangweiwei/utils" target="_blank">
     <img alt="Build Status" src="https://travis-ci.com/wangweiwei/utils.svg?branch=main" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
