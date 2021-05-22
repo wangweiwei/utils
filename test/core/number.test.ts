@@ -3,7 +3,10 @@ import { $number } from '../../src/core/';
 const { isEven, toFixed } = $number;
 
 test('$number.isEven', () => {
+  // 奇数判断
   expect(isEven(1)).toEqual(false);
+
+  // 偶数判断
   expect(isEven(2)).toEqual(true);
 });
 
