@@ -22,4 +22,4 @@ yarn-error.log*
 *.sw?
 
 # test report
-coverage
+/coverage
