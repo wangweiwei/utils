@@ -8,14 +8,11 @@
   <a href="https://npmjs.com/package/@dengfengwang/utils" rel="nofollow">
     <img alt="Latest Version on NPM" src="https://img.shields.io/npm/v/@dengfengwang/utils" style="max-width:100%;">
   </a>
-  <a href="https://github.com/wangweiwei/utils/issues">
-    <img alt="Issue" src="https://img.shields.io/badge/-help--wanted-brightgreen" style="max-width:100%;">
-  </a>
-  <a href="https://github.com/wangweiwei/utils/blob/master/LICENSE">
-    <img alt="Software License" src="https://img.shields.io/npm/l/@dengfengwang/utils" style="max-width:100%;">
+  <a href="https://travis-ci.com/wangweiwei/utils">
+    <img alt="Build Status" src="https://travis-ci.com/wangweiwei/utils.svg?branch=main" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Contributors Anon" src="https://img.shields.io/github/contributors-anon/wangweiwei/utils" style="max-width:100%;">
+    <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/utils" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
     <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/utils" style="max-width:100%;">
@@ -28,9 +25,16 @@
     <img alt="Downloads" src="https://img.shields.io/npm/dt/@dengfengwang/utils.svg" style="max-width:100%;">
   </a>
   <a href="https://github.com/wangweiwei/utils">
-    <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/utils" style="max-width:100%;">
+    <img alt="Contributors Anon" src="https://img.shields.io/github/contributors-anon/wangweiwei/utils" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/utils/issues">
+    <img alt="Issue" src="https://img.shields.io/badge/-help--wanted-brightgreen" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/utils/blob/master/LICENSE">
+    <img alt="Software License" src="https://img.shields.io/npm/l/@dengfengwang/utils" style="max-width:100%;">
   </a>
 </p>
+
 
 > Some convenience utils.
 
