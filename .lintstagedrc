@@ -1,7 +1,8 @@
 {
   "*.ts": [
-    "prettier ./src/**/*.ts --write --ignore-unknown",
-    "tslint -c tslint.json 'src/**/*.ts'",
-    "npm run test"
+    "npm run format",
+    "npm run tslint",
+    "npm run test",
+    "compodoc --coverageMinimumPerFile 25"
   ]
 }

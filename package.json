@@ -31,7 +31,7 @@
     "rm": "rimraf lib",
     "codecov": "codecov",
     "build": "npm run tslint && npm run test && npm run rm && rollup -c --environment SERVER_STOP,BUILD:production",
-    "tslint": "tslint -p .",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
     "publish:patch": "npm version patch && npm run build && npm publish",
     "publish:minor": "npm version minor && npm run build && npm publish",
     "format": "prettier --write \"src/**/*.ts\"",
