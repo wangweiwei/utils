@@ -3,6 +3,6 @@
     "npm run format",
     "npm run tslint",
     "npm run test",
-    "npm run doc"
+    "npm run doc:mini"
   ]
 }
