@@ -1,5 +1,6 @@
 /**
- * 计算平均数
+ * 计算平均数</br>
+ * 其他方法见{@link $math}
  *
  * @param args 数字
  * @returns { number } 平均数

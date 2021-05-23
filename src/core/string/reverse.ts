@@ -1,5 +1,6 @@
 /**
- * 字符串翻转
+ * 字符串翻转</br>
+ * 其他方法见{@link $string}
  *
  * @param str 需要翻转的字符串
  * @returns { string } 翻转后的字符串

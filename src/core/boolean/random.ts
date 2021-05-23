@@ -1,5 +1,6 @@
 /**
- * 随机布尔值
+ * 随机布尔值</br>
+ * 其他方法见{@link $boolean}
  *
  * @returns { boolean } 随机结果
  */
