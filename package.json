@@ -35,7 +35,7 @@
     "publish:patch": "npm version patch && npm run build && npm publish",
     "publish:minor": "npm version minor && npm run build && npm publish",
     "format": "prettier --write \"src/**/*.ts\"",
-    "doc": "compodoc -p tsconfig.doc.json -d docs",
+    "doc": "compodoc -p tsconfig.doc.json -d docs --language zh-CN --hideGenerator",
     "doc:mini": "compodoc -p tsconfig.doc.json -d docs --coverageMinimumPerFile 25",
     "prepare": "husky install"
   },
