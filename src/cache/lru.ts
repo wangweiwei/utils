@@ -4,7 +4,13 @@
  * @author WeiweiWang
  */
 export class LRU {
+  /**
+   * @ignore
+   */
   private cache: Map<number | string, any> = new Map();
+  /**
+   * @ignore
+   */
   private capacity: number;
 
   constructor(capacity: number) {
@@ -12,6 +18,9 @@ export class LRU {
     this.init();
   }
 
+  /**
+   * @ignore
+   */
   private init() {
     this.cache = new Map();
   }
