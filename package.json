@@ -35,7 +35,7 @@
     "publish:patch": "npm version patch && npm run build && npm publish",
     "publish:minor": "npm version minor && npm run build && npm publish",
     "format": "prettier --write \"src/**/*.ts\"",
-    "doc": "compodoc -p tsconfig.doc.json",
+    "doc": "compodoc -p tsconfig.doc.json -d docs",
     "prepare": "husky install"
   },
   "jest": {
