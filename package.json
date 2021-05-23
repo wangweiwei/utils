@@ -26,16 +26,16 @@
   ],
   "scripts": {
     "dev": "rollup -c -w",
-    "test": "jest --collect-coverage",
+    "test": "jest --collect-coverage \"test/**/*.test.ts\"",
     "clean": "rimraf node_modules",
     "rm": "rimraf lib",
     "codecov": "codecov",
     "build": "npm run tslint && npm run test && npm run rm && rollup -c --environment SERVER_STOP,BUILD:production",
-    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "tslint": "tslint -c tslint.json \"src/**/*.ts\"",
     "publish:patch": "npm version patch && npm run build && npm publish",
     "publish:minor": "npm version minor && npm run build && npm publish",
     "format": "prettier --write \"src/**/*.ts\"",
-    "doc": "compodoc -p tsconfig.doc.json -d docs",
+    "doc": "compodoc -p tsconfig.doc.json -d docs --coverageMinimumPerFile 25",
     "prepare": "husky install"
   },
   "jest": {

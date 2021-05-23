@@ -3,6 +3,6 @@
     "npm run format",
     "npm run tslint",
     "npm run test",
-    "compodoc --coverageMinimumPerFile 25"
+    "npm run doc"
   ]
 }

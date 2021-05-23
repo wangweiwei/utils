@@ -1,4 +1,10 @@
-const reverse = (str: string): string => {
+/**
+ * 字符串翻转
+ *
+ * @param str 需要翻转的字符串
+ * @param 翻转后的字符串
+ */
+function reverse(str: string): string {
   // return str.split('').reverse().join('')
   let reversedStr = '';
 
@@ -7,6 +13,6 @@ const reverse = (str: string): string => {
   }
 
   return reversedStr;
-};
+}
 
 export { reverse };
