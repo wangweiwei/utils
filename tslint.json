@@ -6,6 +6,7 @@
     "tslint-plugin-prettier"
   ],
   "rules": {
-    "prettier": [true, ".prettierrc"]
+    "prettier": [true, ".prettierrc"],
+    "no-bitwise": ["error", { "allow": ["~"] }]
   }
 }

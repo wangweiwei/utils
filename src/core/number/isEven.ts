@@ -6,7 +6,7 @@
  * @returns { number } 如果是偶数返回true，否则为false
  */
 function isEven(num: number): boolean {
-  return num % 2 === 0;
+  return (num & 1) === 0;
 }
 
 export { isEven };

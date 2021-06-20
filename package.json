@@ -26,7 +26,7 @@
   ],
   "scripts": {
     "dev": "rollup -c -w",
-    "test": "jest --collect-coverage ",
+    "test": "jest --collect-coverage jest --verbose ./test",
     "clean": "rimraf node_modules",
     "rm": "rimraf lib",
     "codecov": "codecov",
@@ -56,7 +56,7 @@
     ],
     "testMatch": [
       "<rootDir>/src/**/?(*.)test.ts",
-      "<rootDir>/test/**/?(*.)test.ts"
+      "<rootDir>/test/**/*.test.ts"
     ],
     "coverageThreshold": {
       "global": {
